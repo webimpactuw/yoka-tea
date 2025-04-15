@@ -1,0 +1,80 @@
+.footer {
+    background-color: #000;
+    color: #F6EFE1;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .footer-logo {
+    font-size: 2rem;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* or use your YOKA font */
+  }
+  
+  .footer-contact {
+    font-weight: 500;
+  }
+  
+  .footer-icons {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .footer-right {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .footer-signup-text {
+    font-size: 0.95rem;
+  }
+  
+  .footer-form {
+    display: flex;
+    align-items: center;
+    background-color: #F6EFE1;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .email-input {
+    border: none;
+    padding: 0.5rem 1rem;
+    flex-grow: 1;
+    font-size: 0.95rem;
+  }
+  
+  .email-input:focus {
+    outline: none;
+  }
+  
+  .submit-button {
+    background-color: transparent;
+    border: none;
+    padding: 0 1rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+  }
+  
+  .footer-address {
+    font-size: 0.85rem;
+    opacity: 0.8;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
