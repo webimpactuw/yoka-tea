@@ -4,6 +4,7 @@ import Menu from "./Menu";
 import Footer from "./Footer";
 import AboutUs from "./AboutUs";
 import Profile from "./Profile";
+import Main from "./Main";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function YokaTeaApp() {
@@ -13,6 +14,7 @@ function YokaTeaApp() {
             <Navbar />
             <main className="content-wrap">
                 <Routes>
+                    <Route path="/" element={<Main />} />
                     <Route path="/menu" element={<Menu />} />
                     <Route path="/about" element={<AboutUs />} />
                     <Route path="/profile" element={<Profile />} />
