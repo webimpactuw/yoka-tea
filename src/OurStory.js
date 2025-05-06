@@ -6,30 +6,33 @@ export default function OurStory() {
                     require("./pictures/Copy of IMG_1725.JPG"),
                     require("./pictures/Copy of IMG_2113.JPG"),
                     require("./pictures/Copy of IMG_2118.JPG"),
-                    require("./pictures/Copy of IMG_2077.JPG"),
-                    require("./pictures/Copy of IMG_2077.JPG"),
-                    require("./pictures/Copy of IMG_2077.JPG"),
-                    require("./pictures/Copy of IMG_2077.JPG"),
+                    require("./pictures/Copy of IMG_2077.JPG")
     ]
 
     return (
-        <div className="wrapper">
-            <div className="title-container">
-                <h2 className="title">Our Story</h2>
+        <div className="ourstory-wrapper">
+            <div className="ourstory-title-container">
+                <div className="ourstory-title-gradient"></div>
+                <h2 className="ourstory-title">Our Story</h2>
             </div>
 
-            <div className="images-container">
-                <div className="image-grid">
+            <div className="ourstory-images-container">
+                <div className="ourstory-image-grid">
                     {images.map((src, index) => (
-                        <div key={index} className="image-cell">
-                        <img key={index} src={src} alt={`${index + 1}`} className="images" />
+                        <div key={index} className="ourstory-image-cell">
+                        <img key={index} src={src} alt={`${index + 1}`} className="ourstory-images" />
                         </div> ))}
+                        <div className="ourstory-gradient-overlay-left"></div>
+                        <div className="ourstory-gradient-overlay-right"></div>
                 </div>
+                
             </div>
 
-            <div className="footer">
-                <p className="social">@yokateaofficial</p>
-                <button className="aboutUs">View Gallery</button>
+            <div className="ourstory-footer">
+                <p className="ourstory-social">@yokateaofficial</p>
+                <div className='ourstory-about-button-container '>
+                    <button className="ourstory-aboutUs">About Us</button>
+                </div>
             </div>
         </div>
     )
