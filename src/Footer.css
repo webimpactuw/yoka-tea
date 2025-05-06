@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 .footer {
+    font-family: "IBM Plex Mono", monospace;
     background-color: #000;
     color: #F6EFE1;
     display: flex;
@@ -9,9 +12,11 @@
   }
   
   .footer-left {
+    font-family: "IBM Plex Mono", monospace;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    text-align: left;
   }
   
   .footer-logo {
@@ -20,6 +25,7 @@
   }
   
   .footer-contact {
+    font-family: "IBM Plex Mono", monospace;
     font-weight: 500;
   }
   
@@ -30,10 +36,12 @@
   }
   
   .footer-right {
+    font-family: "IBM Plex Mono", monospace;
     max-width: 300px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    text-align: left;
   }
   
   .footer-signup-text {
@@ -41,6 +49,7 @@
   }
   
   .footer-form {
+    font-family: "IBM Plex Mono", monospace;
     display: flex;
     align-items: center;
     background-color: #F6EFE1;
@@ -49,6 +58,7 @@
   }
   
   .email-input {
+    font-family: "IBM Plex Mono", monospace;
     border: none;
     padding: 0.5rem 1rem;
     flex-grow: 1;
@@ -68,6 +78,7 @@
   }
   
   .footer-address {
+    font-family: "IBM Plex Mono", monospace;
     font-size: 0.85rem;
     opacity: 0.8;
   }
@@ -77,4 +88,5 @@
     height: 30px;
     cursor: pointer;
   }
+
   
