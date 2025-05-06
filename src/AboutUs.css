@@ -1,47 +1,50 @@
 body {
     display: flex;
     width: 1280px;
-    padding-top: 50px;
     flex-direction: column;
-    align-items: center;
     gap: 64px;
     background-color: #F6EFE1;
     font-family: "IBM Plex Mono";
+
 }
 
 p {
     font-size: 21px;
-    align-self: stretch;
+}
+
+.flex-container {
+    display: flex;
+    gap: 64px;
+    max-width: 1000px;
+    padding: 64px;
+    margin: 0 auto;
+
 }
 
 #about-us-image {
-    /* width: 267px; 
-    height: 400px; */
-    flex-shrink: 0;
     border-radius: 25px;
-
-    display: block;
-    max-width: 267px;
-    max-height: 400px;
-    width: auto;
-    height: auto;
+    width: 267px;
+    height: 400px;
+    object-fit: cover;
 
 
+
+}
+
+.about-us-content {
+    flex: 1;
+    align-self: stretch;
 }
 
 .title {
-    display: flex;
-    height: 58px;
-    flex-direction: column;
-    justify-content: center;
-    align-self: stretch;
     font-size: 40px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
-
+    margin: 0;
 }
 
 hr {
-    width: 549px;
+    height: 1px;
+    background-color: black;
+    border: none;
 }
