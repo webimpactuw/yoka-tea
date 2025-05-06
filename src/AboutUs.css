@@ -48,3 +48,7 @@ hr {
     background-color: black;
     border: none;
 }
+
+#bold text {
+    font-weight: 100;
+}
