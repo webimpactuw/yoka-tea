@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+.feature-drink-page {
+    background-color: #F6EFE1;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.description {
+    font-family: "IBM Plex Mono", monospace;
+    padding: 1rem;
+    max-width: 350px;
+    background-color: #F6EFE1;
+}
+
+.drink-name {
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #000;
+}
+.feature-video {
+    width: 800px;
+    height: 600px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-right: 2rem;
+}

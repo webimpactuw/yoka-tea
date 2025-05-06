@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import AboutUs from "./AboutUs";
 import Profile from "./Profile";
 import Main from "./Main";
+import './YokaTeaApp.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function YokaTeaApp() {
