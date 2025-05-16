@@ -31,7 +31,7 @@ export default function OurStory() {
             <div className="ourstory-footer">
                 <p className="ourstory-social">@yokateaofficial</p>
                 <div className='ourstory-about-button-container '>
-                    <button className="ourstory-aboutUs">About Us</button>
+                    <a href="/about"><button className="ourstory-aboutUs">About Us</button> </a>
                 </div>
             </div>
         </div>

@@ -26,6 +26,8 @@
     font-weight: 500;
     line-height: normal;
     margin-right: 50px;
+    margin-bottom: 12%;
+    align-self: flex-end;
 }
 
 .merch-image {
