@@ -3,12 +3,17 @@ import './Footer.css';
 import Instagram from './pictures/instagram.png';
 import TikTok from './pictures/tik-tok.png';
 import Email from './pictures/mail.png'
+import Logo2 from './pictures/Logo2.png';
+import { Link } from "react-router-dom";
+
 
 const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer-left">
-                <h2 className="footer-logo">YOKA</h2>
+            <Link to="/" className="logo-link">
+                <img src={Logo2} alt="YOKA Logo" className="logo2-image" />
+            </Link>
                 <p className="footer-contact">Contact Us</p>
                 <div className="footer-icons">
                     <a href="https://www.instagram.com/yokateaofficial/?hl=en" target="_blank" rel="noopener noreferrer">

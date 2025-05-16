@@ -19,10 +19,17 @@
     text-align: left;
   }
   
-  .footer-logo {
-    font-size: 2rem;
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* or use your YOKA font */
+  .logo-link {
+    display: inline-block;
+    width: fit-content;
   }
+  
+  .logo2-image {
+    height: 42px; /* Adjust based on your desired logo size */
+    width: auto;
+    object-fit: contain;
+  }
+  
   
   .footer-contact {
     font-family: "IBM Plex Mono", monospace;
