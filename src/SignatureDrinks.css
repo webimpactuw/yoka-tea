@@ -1,0 +1,77 @@
+.signature-drinks {
+  text-align: center;
+  padding: 40px 20px;
+  font-family: 'Courier New', monospace;
+  background-color: #F6EFE1;
+}
+
+.signature-drinks h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.drink-list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 0 20px;
+  width: 100%;             /* Take full screen width */
+  max-width: 1400px;       /* Optional: cap the width on huge screens */
+  margin: 0 auto;          /* Center it horizontally */
+}
+
+.drink-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 180px;          /* limits horizontal size */
+  max-width: 250px;      /* prevents stretching */
+  text-align: center;
+  box-sizing: border-box;
+  white-space: normal;   /* allows wrapping inside the container */
+}
+
+
+.drink-image {
+  height: 300px;
+  width: auto;
+  object-fit: contain;
+}
+
+
+.drink-item h2 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+}
+
+.drink-item p {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #333;
+  max-width: 200px; 
+  word-wrap: break-word; 
+  white-space: normal;
+  margin: 0 auto;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+
+.view-menu-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-size: 18px;
+  cursor: pointer;
+  font-family: 'Courier New', monospace;
+}
+
+.view-menu-button:hover {
+  background-color: #333;
+}

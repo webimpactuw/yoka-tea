@@ -1,0 +1,12 @@
+.div {
+    background-color: black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p {
+    font-family: "IBM Plex Mono", monospace;
+    color: #F6EFE1;
+    text-align: center;
+}
