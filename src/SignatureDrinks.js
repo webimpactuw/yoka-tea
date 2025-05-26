@@ -50,7 +50,7 @@ const SignatureDrinks = () => {
           </div>
         ))}
       </div>
-      <button className="view-menu-button">View Full Menu</button>
+      <a href="/menu"><button className="view-menu-button">View Full Menu</button></a>
     </div>
   );
 };
